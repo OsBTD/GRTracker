@@ -65,3 +65,5 @@ func main() {
 	fmt.Println("Server started at http://localhost:8080")
 	http.ListenAndServe(":8080", nil)
 }
+//handle all errors by separating the home handler from the main, controlling methods, 404, 500 etc..
+//forbbid access to static assets and all folders like that
