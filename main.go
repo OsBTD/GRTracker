@@ -67,3 +67,4 @@ func main() {
 }
 //handle all errors by separating the home handler from the main, controlling methods, 404, 500 etc..
 //forbbid access to static assets and all folders like that
+//try putting the images on another server 
